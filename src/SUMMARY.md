@@ -1,6 +1,6 @@
 # Summary
 
-- [Introduction to Operating Systems](./intro/intro.md)
+- [Introduction to Operating Systems](./intro.md)
   - [Managing Resources](./intro/managing_resources.md)
   - [Abstracting Details](./intro/abstracting_details.md)
   - [Types of Operating Systems](./intro/types_of_os.md)

@@ -1,7 +1,7 @@
 # System Calls
 **System calls** are how programs communicate with the operating system (which in turn communicates with the actual hardware). Recall that when we were programming using low-level assembly, for instance [MIPS assembly](https://en.wikipedia.org/wiki/MIPS_architecture), we used system calls for input/output, management of the processes (such as terminate), and system-level randomness (for cryptography). In a more broader sense, a system call is how a program asks an operating system to perform a task (such as read user input) on its behalf. As such, we can think of a system call to be similar to a control transfer (like the `jal` instruction).
 
-<div style="text-align: center;">
+
 
 ```mermaid
 graph TD; 
@@ -13,7 +13,7 @@ graph TD;
   C-->B
   B-->A
 ```
-</div>
+
 
 Almost all programming languages (besides perhaps the assembly language) has a standard library. Thus, if a program makes a call to a function in that library, it must be linked during compilation, and then loaded into memory during run-time (as a consequence of the Von Neumann architecture).
 

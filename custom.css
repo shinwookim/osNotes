@@ -1,0 +1,9 @@
+p img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mermaid {
+  text-align: center;
+}
