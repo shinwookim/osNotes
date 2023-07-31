@@ -1,0 +1,6 @@
+[book]
+authors = ["Shinwoo Kim"]
+language = "en"
+multilingual = false
+src = "src"
+title = "CS1550: Operating Systems"
