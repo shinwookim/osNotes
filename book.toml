@@ -4,3 +4,16 @@ language = "en"
 multilingual = false
 src = "src"
 title = "CS1550: Operating Systems"
+
+[preprocessor]
+
+[preprocessor.pagetoc]
+
+[preprocessor.mermaid]
+command = "mdbook-mermaid"
+
+[output]
+
+[output.html]
+additional-js = ["mermaid.min.js", "mermaid-init.js", "theme/pagetoc.js"]
+additional-css = ["theme/pagetoc.css"]
